@@ -1,0 +1,37 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 10px 10px 2px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+
+main {
+  margin-top: 150px
+}
+
+.divider {
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#mappa {
+  border-radius: 15px;
+  /* Puoi regolare questo valore per ottenere il bordo rotondo desiderato */
+  overflow: hidden;
+  border: 2px solid #ccc;
+  /* Puoi regolare il colore e lo spessore del bordo */
+  height: 600px;
+}
+
+.bg-footer {
+  background-color: #f2f2f2;
+}

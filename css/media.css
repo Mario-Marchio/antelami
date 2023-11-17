@@ -1,0 +1,63 @@
+@media (max-width: 991px) {
+
+    /* tablet  */
+    .container-card {
+        flex: 0 0 33.33%;
+    }
+
+    .carousel-control-prima {
+        left: -15px;
+    }
+
+    .carousel-control-dopo {
+        right: 235px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-card {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        /* Una card per riga a telefono */
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 300px;
+        /* Modifica l'altezza come desideri */
+    }
+
+    #mappa {
+        height: 300px;
+    }
+}
+
+/* Stile per dispositivi mobili */
+@media (max-width: 767px) {
+    #show-more-button {
+        display: block;
+    }
+
+    .carousel-control-prima {
+        left: 10px;
+    }
+
+    .carousel-control-dopo {
+        right: 75px;
+    }
+}
+
+/* Stile per desktop */
+@media (min-width: 768px) {
+    #services-container .container-card {
+        display: block !important;
+        /* Mostra tutti i servizi su desktop */
+    }
+
+    #show-more-button {
+        display: none;
+        /* Nascondi il pulsante su desktop */
+    }
+}
