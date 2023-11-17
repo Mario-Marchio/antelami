@@ -4,14 +4,6 @@
     .container-card {
         flex: 0 0 33.33%;
     }
-
-    .carousel-control-prima {
-        left: -15px;
-    }
-
-    .carousel-control-dopo {
-        right: 235px;
-    }
 }
 
 @media (max-width: 767px) {
@@ -40,12 +32,8 @@
         display: block;
     }
 
-    .carousel-control-prima {
-        left: 10px;
-    }
-
-    .carousel-control-dopo {
-        right: 75px;
+    .size {
+        font-size: 3rem;
     }
 }
 
@@ -59,11 +47,5 @@
     #show-more-button {
         display: none;
         /* Nascondi il pulsante su desktop */
-    }
-}
-
-@media (max-width: 375px) {
-    .carousel-control-dopo {
-        right: 135px;
     }
 }

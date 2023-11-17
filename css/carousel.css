@@ -13,18 +13,13 @@
     align-items: center;
     justify-content: center;
     width: 15%;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    background: 0 0;
-    border: 0;
 }
 
 
 .carousel-control-prima {
-    left: -52px;
+    left: 0;
 }
 
 .carousel-control-dopo {
-    right: 795px;
+    right: 0;
 }
