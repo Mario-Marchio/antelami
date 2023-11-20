@@ -39,3 +39,8 @@ main {
 .size {
   font-size: 8rem;
 }
+
+.footer-shadow {
+  box-shadow: 0px 0 10px 8px;
+
+}
